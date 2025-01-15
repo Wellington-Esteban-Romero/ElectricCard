@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C8B75C80325B7375ADCCAD6 /* Pods_ElectricCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7DF2567523B15EC004D148 /* Pods_ElectricCar.framework */; };
+		B20C3E132D3810320098A17F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B20C3E122D3810320098A17F /* GoogleService-Info.plist */; };
 		B2D0BD3F2D35875B008F63A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0BD3E2D35875B008F63A3 /* AppDelegate.swift */; };
 		B2D0BD412D35875B008F63A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0BD402D35875B008F63A3 /* SceneDelegate.swift */; };
 		B2D0BD432D35875B008F63A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0BD422D35875B008F63A3 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6325C84C4C3AFC3F682D96B /* Pods-ElectricCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricCar.debug.xcconfig"; path = "Target Support Files/Pods-ElectricCar/Pods-ElectricCar.debug.xcconfig"; sourceTree = "<group>"; };
+		B20C3E122D3810320098A17F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B2D0BD3B2D35875B008F63A3 /* ElectricCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectricCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D0BD3E2D35875B008F63A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D0BD402D35875B008F63A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		B2D0BD472D35875C008F63A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D0BD4A2D35875C008F63A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2D0BD4C2D35875C008F63A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17A4A4B9C87A40D99972410 /* Pods-ElectricCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricCar.release.xcconfig"; path = "Target Support Files/Pods-ElectricCar/Pods-ElectricCar.release.xcconfig"; sourceTree = "<group>"; };
+		FC7DF2567523B15EC004D148 /* Pods_ElectricCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectricCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8B75C80325B7375ADCCAD6 /* Pods_ElectricCar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C727B624D21388F169F13EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6325C84C4C3AFC3F682D96B /* Pods-ElectricCar.debug.xcconfig */,
+				C17A4A4B9C87A40D99972410 /* Pods-ElectricCar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		904909F84865BC8837D8412C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC7DF2567523B15EC004D148 /* Pods_ElectricCar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2D0BD322D35875B008F63A3 = {
 			isa = PBXGroup;
 			children = (
 				B2D0BD3D2D35875B008F63A3 /* ElectricCar */,
 				B2D0BD3C2D35875B008F63A3 /* Products */,
+				6C727B624D21388F169F13EA /* Pods */,
+				904909F84865BC8837D8412C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 		B2D0BD3D2D35875B008F63A3 /* ElectricCar */ = {
 			isa = PBXGroup;
 			children = (
+				B20C3E122D3810320098A17F /* GoogleService-Info.plist */,
 				B2D0BD3E2D35875B008F63A3 /* AppDelegate.swift */,
 				B2D0BD402D35875B008F63A3 /* SceneDelegate.swift */,
 				B2D0BD422D35875B008F63A3 /* ViewController.swift */,
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2D0BD4F2D35875C008F63A3 /* Build configuration list for PBXNativeTarget "ElectricCar" */;
 			buildPhases = (
+				82945C28A738A41B397D8F06 /* [CP] Check Pods Manifest.lock */,
 				B2D0BD372D35875B008F63A3 /* Sources */,
 				B2D0BD382D35875B008F63A3 /* Frameworks */,
 				B2D0BD392D35875B008F63A3 /* Resources */,
+				D697612BD76CF57F1839EAA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D0BD482D35875C008F63A3 /* Assets.xcassets in Resources */,
+				B20C3E132D3810320098A17F /* GoogleService-Info.plist in Resources */,
 				B2D0BD4B2D35875C008F63A3 /* Base in Resources */,
 				B2D0BD462D35875B008F63A3 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82945C28A738A41B397D8F06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectricCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D697612BD76CF57F1839EAA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectricCar/Pods-ElectricCar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectricCar/Pods-ElectricCar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectricCar/Pods-ElectricCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B2D0BD372D35875B008F63A3 /* Sources */ = {
@@ -287,11 +359,13 @@
 		};
 		B2D0BD502D35875C008F63A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6325C84C4C3AFC3F682D96B /* Pods-ElectricCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ElectricCar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +388,13 @@
 		};
 		B2D0BD512D35875C008F63A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17A4A4B9C87A40D99972410 /* Pods-ElectricCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ElectricCar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

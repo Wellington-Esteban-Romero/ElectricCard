@@ -8,4 +8,5 @@ target 'ElectricCar' do
   # Pods for ElectricCar
   pod 'FirebaseAnalytics'
   pod 'FirebaseAuth'
+  pod 'GoogleSignIn'
 end
